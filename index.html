@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Recipes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href = "./styles/index.css">
+</head>
+<body>
+
+  <div class="navBar">
+    <div class="container">
+      <a class="logo" href="#">My<span>Recipes</span></a>
+  
+        <img id="mobile-menu-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+      <nav>
+        
+        <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Exit Navigation Menu">
+        <ul class ="primary-nav">
+          <li class ="current"><a href="#">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+        </ul>
+
+        <ul class ="secondary-nav">
+          <li><a href="#section-feedback">Feedback</a></li>
+          <li><a href="mailto:osiopko@gmail.com">Contact Us</a></li>
+          <li id = "subscribe" class="subscribe"><a href="#">Substribe</a></li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+
+<section class="hero">
+  <div class = "container">
+    <div class="left-col">
+      <p class="sub-head">to be added later</p>
+      <h1>Simple recipes</h1>
+
+      <div class="hero-cta">
+        <a href="https://www.epicurious.com/expert-advice/best-cooking-advice-ever-article" class="primary-cta"  target = "_blank">Useful cooking advice</a>
+        <a href="https://www.youtube.com/watch?v=wHRXUeVsAQQ" class="watch-video-cta"  target = "_blank">
+          <img src="images/watch.svg" alt="watch a video">Watch a Youtube video</a>
+      </div>
+    </div>
+  </div>
+  <img class = "hero-img" src="images/home-image.png" alt="illustration menu graph">
+</section>
+  
+  <!--<img class = "main-picture" src="images/recipe_picture.jpg" alt="croissant picture">-->
+  <section class="feature-section">
+    <div class="container">
+      <ul class="features-list">
+        <li>Take notes</li>
+        <li>Get your recipes</li>
+        <li>Leave feedback</li>
+        <li>Print the list of ingredients</li>
+        <li>Create a shopping list</li>
+      </ul>
+      <img class = "main-picture" src="images/recipe_picture.jpg" alt="croissant picture">
+    </div>
+  </section>
+
+  <section class="testimonial-section">
+    <div class="container">
+      <ul class="testimonial-list">
+        <li>
+          <img class="person" src="images/person.jpg" alt="person">
+          <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita assumenda pariatur labore adipisci molestias ipsum, officiis quia cupiditate consequatur aliquid iusto quas minima odit obcaecati. Debitis beatae sapiente alias.</blockquote>
+          <cite> ~ Jane Doe</cite>
+        </li>
+        <li>
+          <img class="person" src="images/person.jpg" alt="person">
+          <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita assumenda pariatur labore adipisci molestias ipsum, officiis quia cupiditate consequatur aliquid iusto quas minima odit obcaecati. Debitis beatae sapiente alias.</blockquote>
+          <cite> ~ Jane Doe</cite>
+        </li>
+        <li>
+          <img class="person" src="images/person.jpg" alt="person">
+          <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita assumenda pariatur labore adipisci molestias ipsum, officiis quia cupiditate consequatur aliquid iusto quas minima odit obcaecati. Debitis beatae sapiente alias.</blockquote>
+          <cite> ~ Jane Doe</cite>
+        </li>
+      </ul>
+    </div>
+   </section>
+
+    <section class="contact-session">
+      <div class="container">
+        <div class="contact-left">
+          <h2 id="section-feedback">Feedback</h2>
+
+          <form class="submit-form" onsubmit="return submitMessage(event);">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" placeholder="type your message here" >
+
+            <input type="submit" class="send-message" value="Submit feedback">
+          </form>
+        <a class="link-to-top" href="#">jump to top</a>
+        </div>
+
+        <div class="contact-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2494.1579595863477!2d-0.7635785840334539!3d51.30821813306766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48742ad0b602c185%3A0xb5b6aca50f520158!2s74%20Cherrywood%20Rd%2C%20Farnborough%20GU14%208US!5e0!3m2!1sen!2suk!4v1612264159904!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </section>
+  
+    <footer id="info" class="info">
+    
+    </footer>
+
+    
+    
+</body>
+</html>
